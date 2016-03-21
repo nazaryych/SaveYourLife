@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SaveYourLife</string>
+
+    <!--Строки приветсвия на MainActivity -->
+    <string name="textViewSaveYourLife">Save your health</string>
+    <string name="textViewTapToSart">Tap to start</string>
+
+    <string name="title_activity_input_data">InputDataActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Меню для куруния-->
+    <string name="itemIMT">Изьменить ИМТ</string>
+    <string name="itemIKC">Изьменить ИКЧ</string>
+    <string name="itemToNull">Обнулить профиль</string>
+    <string name="itemBuyPro">Купить PRO</string>
+    <string name="itemAboutProgram">О программе</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- строки для первой активности -->
+    <string name="header">Health keeper</string>
+    <string name="tap_to_continue">коснитесь, чтобы начать</string>
+    <!-- строки для второй активности -->
+    <string name="input_your_ves">Введите Ваш вес</string>
+    <string name="input_your_rost">Введите Ваш рост</string>
+    <string name="check_smoking">Курите ли вы?</string>
+    <string-array name="select_your_pol">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <string name="your_pol">Укажите ваш пол</string>
+    <string name="title_activity_smoke">SmokeActivity</string>
+
+
+    <string name="textView3">Ваш индекс массы тела:</string>
+    <string name="textView4">Ваш индекс курящего человека:</string>
+    <string name="question1">Вопрос 1</string>
+    <string name="question2">Вопрос 2</string>
+    <string name="question3">Вопрос 3</string>
+    <string name="cigarets_by_day">Укажите количество сигарет, которые вы выкуриваете за сутки</string>
+
+    <string name="textViewAbouteSmoke">О курении</string>
+</resources>

@@ -1,0 +1,36 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuActivity">
+
+    <item
+        android:id="@+id/itemIMT"
+        android:orderInCategory="100"
+        android:title="@string/itemIMT"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itemIKC"
+        android:orderInCategory="100"
+        android:title="@string/itemIKC"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itemToNull"
+        android:orderInCategory="100"
+        android:title="@string/itemToNull"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itemBuyPro"
+        android:orderInCategory="100"
+        android:title="@string/itemBuyPro"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itemAboutProgram"
+        android:orderInCategory="100"
+        android:title="@string/itemAboutProgram"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

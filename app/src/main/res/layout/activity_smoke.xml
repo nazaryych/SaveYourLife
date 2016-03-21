@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#e3e3e3">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d1d1d1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:numeric="integer"
+                android:id="@+id/textView4"
+                android:layout_margin="10dp"
+                android:text="@string/textViewAbouteSmoke"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d1d1d1">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:numeric="integer"
+                android:id="@+id/textView1"
+
+                android:layout_margin="10dp"
+                android:text="@string/question1"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox_design"
+                android:id="@+id/checkBox1"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="0.2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d1d1d1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:numeric="integer"
+                android:id="@+id/textView2"
+                android:layout_margin="10dp"
+                android:text="@string/question2"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox_design"
+                android:id="@+id/checkBox2"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="0.2"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d1d1d1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:numeric="integer"
+                android:id="@+id/textView3"
+                android:layout_margin="10dp"
+                android:text="@string/question3"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox_design"
+                android:id="@+id/checkBox3"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="0.2" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d1d1d1"
+            android:weightSum="1"
+            android:layout_marginTop="30dp">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageView3"
+                android:background="@drawable/images1"
+                android:layout_marginLeft="20dp"/>
+
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cigarets_by_day"
+                android:id="@+id/editText1"
+                android:gravity="center"
+                android:ems="50"
+                android:numeric="integer"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dp"
+                android:inputType="none" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"           >
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton1"
+                android:src="@drawable/next1"
+                android:layout_gravity="right"
+
+                android:visibility="visible"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
